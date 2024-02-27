@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Listening to Spotify","Watching YouTube"];
+const statusMessages = ["gainpvp.xyz","store.gainpvp.xyz","dsc.gg/gainpvpxyz"];
 
 
 let currentIndex = 0;
@@ -44,7 +44,7 @@ const channelId = '';
 
 async function login() {
   try {
-    await client.login(process.env.TOKEN);
+    await client.login('MTE5NDAyMzczMjAwODcxODM5Ng.GTMvra.ud1EoMyUEmAoD5ywo09Tp6QeBx0x-06o71AkFc');
     console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
   } catch (error) {
     console.error('Failed to log in:', error);
