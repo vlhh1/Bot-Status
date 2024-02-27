@@ -44,7 +44,7 @@ const channelId = '';
 
 async function login() {
   try {
-    await client.login('MTE5NDAyMzczMjAwODcxODM5Ng.GTMvra.ud1EoMyUEmAoD5ywo09Tp6QeBx0x-06o71AkFc');
+    await client.login('MTE5NDAyMzczMjAwODcxODM5Ng.G__P_w.Qg_HOUF-NYx-gNlLFaJTAtIlz9W2lzIaPjhx5w');
     console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
   } catch (error) {
     console.error('Failed to log in:', error);
